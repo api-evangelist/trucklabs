@@ -1,19 +1,49 @@
 aid: trucklabs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trucklabs.png
 name: TruckLabs
-description: TruckLabs is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TruckLabs built TruckWings, an automated tractor-mounted aerodynamic device that closes
+  the gap between the tractor and trailer to reduce aerodynamic drag, cutting fuel
+  consumption by a proven 3-6% and eliminating roughly 7-10 metric tons of CO2 per truck
+  each year with an 18-24 month payback. The device deploys automatically at highway speed
+  and retracts below it, reduces buffeting and trailer sway in crosswinds, and installs on
+  both new builds and retrofits in about two hours. TruckLabs was acquired by ConMet, and
+  trucklabs.com now redirects to the ConMet TruckWings product line. As a hardware
+  fuel-efficiency company, TruckLabs exposes no public developer API, SDK, or well-known
+  discovery surface; this profile captures its identity and probed domain-security posture.
+  Backed by Uncork Capital.
 url: https://raw.githubusercontent.com/api-evangelist/trucklabs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - uncork-capital
+x-acquired-by: conmet
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Trucking
+- Fleet
+- Aerodynamics
+- Fuel Efficiency
+- Sustainability
+- Hardware
+- TruckWings
+- Telematics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.trucklabs.com
+- type: Product
+  url: https://conmet.com/truckwings/
+- type: Blog
+  url: https://conmet.com/blog/
+- type: Support
+  url: https://conmet.com/support/contact/
+- type: PrivacyPolicy
+  url: https://conmet.com/privacy-policy/
+- type: DomainSecurity
+  url: security/trucklabs-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

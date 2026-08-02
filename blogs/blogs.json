@@ -1,0 +1,21 @@
+{
+  "repo": "trucklabs",
+  "feeds": [
+    {
+      "source": "https://conmet.com/feed/",
+      "feed_url": "https://conmet.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://conmet.com/truckwings/",
+      "feed_url": "https://conmet.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 8,
+  "fetched": "2026-08-01T15:49:00Z"
+}
